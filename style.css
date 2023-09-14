@@ -20,6 +20,15 @@ section{
     transition-duration: 0.7s;
 }
 
+input#txti, input#txtf, input#txtp{
+    display: inline-block;
+}
+
+input{
+    display: block;
+    font-size: 20px;
+}
+
 footer{
     color: white;
     text-align: center;
@@ -34,5 +43,11 @@ input{
     section{
         width: 350px;
         transition-duration: 0.7s;
+    }
+
+    input{
+        display: block;
+        font-size: 20px;
+        margin: auto;
     }
 }
