@@ -28,3 +28,10 @@ footer{
 input{
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 872px){
+    section{
+        width: 350px;
+        transition-duration: 0.7s;
+    }
+}
